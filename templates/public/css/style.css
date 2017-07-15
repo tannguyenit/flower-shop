@@ -1,0 +1,658 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: outside none none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.wrapper {
+    width: 100%;
+}
+.wrapper .header {
+}
+.wrapper .header .top_header {
+}
+.wrapper .header .top_header .search {
+    background: rgba(0, 0, 0, 0) url("../images/bg-special.png") repeat scroll 0 0;
+    border-bottom: 1px dashed #ccc;
+    height: 90px;
+}
+.wrapper .header .top_header .search .logo {
+    float: left;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.wrapper .header .top_header .search.logo a {
+}
+.wrapper .header .top_header .search.logo a img {
+}
+.wrapper .header .top_header .search .timkiem {
+    float: right;
+    margin-right: 150px;
+    margin-top: 45px;
+    width: 246px;
+}
+.wrapper .header .top_header .search .timkiem input {
+    float: left;
+}
+.wrapper .header .top_header .menu {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    margin-left: 150px;
+    width: 1050px;
+}
+.wrapper .header .top_header .menu .menu_item {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+}
+.wrapper .header .top_header .menu .menu_item li {
+    float: left;
+    height: 30px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 137px;
+}
+.wrapper .header .top_header .menu .menu_item li a {
+    color: #636363;
+}
+.wrapper .header .top_header .menu .menu_item li a:hover {
+    color: #cb2d17;
+}
+.wrapper .header .top_header .menu .menu_item li ul {
+    background-color: #f7f7f7;
+    border-bottom: 1px dotted #ccc;
+    display: none;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+}
+.wrapper .header .top_header .menu .menu_item li:hover ul {
+    display: block;
+}
+.wrapper .header .top_header .menu .menu_item li:hover {
+    transition: all 0.25s ease 0s;
+}
+.wrapper .header .top_header .menu .menu_item li:last-child {
+    border-bottom: medium none;
+}
+.wrapper .header .top_header .menu .menu_item li ul li {
+}
+.wrapper .header .top_header .menu .menu_item li ul li a {
+    border-bottom: 1px dotted #acacac;
+}
+.wrapper .header .banner {
+    width: 100%;
+}
+.wrapper .header .banner .left_banner {
+    float: left;
+    margin-left: 150px;
+    width: 285px;
+}
+.wrapper .header .banner .left_banner .title_dv {
+}
+.wrapper .header .banner .left_banner .title_dv .dichvu {
+    color: #636363;
+    font-size: 20px;
+    font-weight: normal;
+}
+.wrapper .header .banner .left_banner .title_dv h2 {
+    color: #e10000;
+    font-size: 23px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.wrapper .header .banner .left_banner .title_dv p {
+    color: #636363;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.wrapper .header .banner .left_banner .menu_DM {
+    margin-top: 20px;
+}
+.wrapper .header .banner .left_banner .menu_DM .dichvu {
+    background: rgba(0, 0, 0, 0) url("../images/line.png") repeat-x scroll left bottom;
+    color: #e10000;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.wrapper .header .banner .left_banner .menu_DM .list_DM {
+}
+.wrapper .header .banner .left_banner .menu_DM .list_DM li {
+    margin-top: 15px;
+}
+.wrapper .header .banner .left_banner .menu_DM .list_DM li a {
+    color: #636363;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.wrapper .header .banner .left_banner .menu_DM .list_DM li a:hover {
+    color: #cb2d17;
+}
+.wrapper .header .banner .right_banner {
+    float: right;
+    margin-right: 150px;
+    width: 757px;
+}
+.wrapper .header .banner .right_banner .slider {
+    float: right;
+    height: 345px;
+    width: 757px;
+}
+.wrapper .header .banner .right_banner .lienket {
+    height: 150px;
+    margin-top: 10px;
+    width: 757px;
+}
+.wrapper .header .banner .right_banner .lienket h2 {
+    color: red;
+    font-size: 20px;
+    margin-top: 7px;
+    text-align: center;
+}
+.wrapper .header .banner .right_banner .lienket .sky {
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.wrapper .header .banner .right_banner .lienket .sky img {
+    float: left;
+    height: 32px;
+    margin-right: 5px;
+    width: 32px;
+}
+.wrapper .header .banner .right_banner .lienket .sky p {
+    margin-left: 39px;
+    margin-top: 15px;
+    position: absolute;
+}
+.wrapper .header .banner .right_banner .lienket .sky p span {
+    color: red;
+    margin-left: 4px;
+}
+.wrapper .header .banner .right_banner .lienket .sky p #mau {
+    color: white;
+    margin-left: 4px;
+}
+.wrapper .header .banner .right_banner .lienket .lienhe {
+    background: #ebebeb url("../images/lienhe.png") no-repeat scroll 85px 14px;
+    box-shadow: 2px 3px 4px #ccc;
+    float: left;
+    height: 150px;
+    width: 347px;
+}
+.wrapper .header .banner .right_banner .lienket .fb-page {
+    float: right;
+    height: 150px;
+    width: 400px;
+}
+.wrapper .content_item_hoa {
+    margin-top: 20px;
+}
+.wrapper .content_item_hoa .wraper_title_new_hoa {
+}
+.wrapper .content_item_hoa .wraper_title_new_hoa h3 {
+    background: rgba(0, 0, 0, 0) url("../images/icon-hyt.png") no-repeat scroll 0 -1px;
+    color: #636363;
+    height: 25px;
+    margin-left: 150px;
+    padding-left: 30px;
+}
+.wrapper .content_item_hoa .wraper_title_new_hoa h3 span {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: normal;
+}
+.wrapper .content_item_hoa .item_new_hoa {
+    background: rgba(0, 0, 0, 0) url("../images/bg-special.png") repeat scroll 0 0;
+    height: 220px;
+}
+.wrapper .content_item_hoa .item_new_hoa ul {
+    margin-left: 150px;
+    text-align: center;
+}
+.wrapper .content_item_hoa .item_new_hoa ul li {
+    float: left;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+.wrapper .content_item_hoa .item_new_hoa ul li a {
+    text-decoration: none;
+}
+.wrapper .content_item_hoa .item_new_hoa ul li a .new_hoa {
+}
+.wrapper .content_item_hoa .item_new_hoa ul li a .new_hoa img {
+    border-radius: 80px;
+    height: 150px;
+    transition: all 0.7s ease 0s;
+    width: 150px;
+}
+.wrapper .content_item_hoa .item_new_hoa ul li a .new_hoa:hover img {
+    transform: scale(1.2);
+}
+.wrapper .content_item_hoa .item_new_hoa ul li a h4 {
+    color: #636363;
+    margin-top: 20px;
+}
+.wrapper .content_item_hoa .item_new_hoa ul li a:hover h4 {
+    color: #cb2d17;
+}
+.wrapper .content {
+    margin-left: 150px;
+    width: 1050px;
+}
+.wrapper .content .left_content {
+    float: left;
+    margin-top: 20px;
+    width: 800px;
+}
+.wrapper .content .left_content .item_KM {
+    background-color: #ffe6dd;
+    height: 310px;
+    margin-bottom: 20px;
+    width: 790px;
+}
+.wrapper .content .left_content .item_KM h3 {
+    color: #e10000;
+    height: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 200px;
+}
+.wrapper .content .left_content .item_KM ul {
+    margin-top: 10px;
+}
+.wrapper .content .left_content .item_KM ul li {
+    background-color: #f7f7f7;
+    float: left;
+    height: 260px;
+    margin-left: 10px;
+    width: 185px;
+}
+.wrapper .content .left_content .item_KM ul li a {
+    text-decoration: none;
+}
+.wrapper .content .left_content .item_KM ul li a .hinhanh {
+    border-bottom: 2px solid #ccc;
+}
+.wrapper .content .left_content .item_KM ul li a .hinhanh img {
+    height: 205px;
+    width: 185px;
+}
+.wrapper .content .left_content .item_KM ul li a p {
+    color: #636363;
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+}
+.wrapper .content .left_content .item_KM ul li a p span {
+    color: #c33439;
+    margin-top: 5px;
+    position: absolute;
+}
+.wrapper .content .left_content .item_new {
+    height: 310px;
+}
+.wrapper .content .left_content .item_new h3 {
+    color: #e10000;
+    height: 20px;
+    width: 200px;
+}
+.wrapper .content .left_content .item_new ul {
+    margin-top: 10px;
+}
+.wrapper .content .left_content .item_new ul li {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    float: left;
+    height: 260px;
+    margin-right: 10px;
+    width: 188px;
+}
+.wrapper .content .left_content .item_new ul li a {
+    text-decoration: none;
+}
+.wrapper .content .left_content .item_new ul li a .hinhanh {
+    border-bottom: 2px solid #ccc;
+}
+.wrapper .content .left_content .item_new ul li a .hinhanh img {
+    height: 205px;
+    width: 188px;
+}
+.wrapper .content .left_content .item_new ul li a p {
+    color: #636363;
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+}
+.wrapper .content .left_content .item_new ul li a p span {
+    color: #c33439;
+    margin-top: 5px;
+    position: absolute;
+}
+.wrapper .content .right_content {
+    background-color: #d4e9ff;
+    float: right;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 20px;
+    width: 250px;
+}
+.wrapper .content .right_content .gioithieu {
+    margin: 10px;
+    width: 230px;
+}
+.wrapper .content .right_content .gioithieu img {
+    width: 230px;
+}
+.wrapper .content .right_content .gioithieu p {
+    margin: 10px;
+}
+.wrapper .footer {
+    background: rgba(0, 0, 0, 0) url("../images/bg-special.png") repeat scroll 0 0;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+}
+.wrapper .footer p {
+    height: 20px;
+    margin-left: 35%;
+    margin-top: 42px;
+    position: absolute;
+}
+.clr {
+    clear: both;
+}
+a {
+    color: #636363;
+    text-decoration: none;
+}
+.wrapper .content .left_content1 {
+    float: left;
+    width: 800px;
+}
+.wrapper .content .left_content1 .item_KM1 {
+    background-color: #ffe6dd;
+    height: 310px;
+    width: 790px;
+}
+.wrapper .content .left_content1 .item_KM1 h3 {
+    color: #c33439;
+    height: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 200px;
+}
+.wrapper .content .left_content1 .item_KM1 ul {
+    margin-top: 10px;
+}
+.wrapper .content .left_content1 .item_KM1 ul li {
+    background-color: #f7f7f7;
+    float: left;
+    height: 260px;
+    margin-left: 10px;
+    width: 185px;
+}
+.wrapper .content .left_content1 .item_KM1 ul li a {
+    text-decoration: none;
+}
+.wrapper .content .left_content1 .item_KM1 ul li a .hinhanh1 {
+    border-bottom: 2px solid #ccc;
+}
+.wrapper .content .left_content1 .item_KM1 ul li a .hinhanh1 img {
+    height: 205px;
+    width: 185px;
+}
+.wrapper .content .left_content1 .item_KM1 ul li a p {
+    color: #636363;
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+}
+.wrapper .content .left_content1 .item_KM1 ul li a p span {
+    color: #c33439;
+    margin-top: 5px;
+    position: absolute;
+}
+.wrapper .content .left_content1 .item_new1 {
+    height: 310px;
+    margin-top: 20px;
+}
+.wrapper .content .left_content1 .item_new1 h3 {
+    color: #c33439;
+    height: 20px;
+    width: 200px;
+}
+.wrapper .content .left_content1 .item_new1 ul {
+    margin-top: 10px;
+}
+.wrapper .content .left_content1 .item_new1 ul li {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    float: left;
+    height: 260px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 188px;
+}
+.wrapper .content .left_content1 .item_new1 ul li a {
+    text-decoration: none;
+}
+.wrapper .content .left_content1 .item_new1 ul li a .hinhanh1 {
+    border-bottom: 2px solid #ccc;
+}
+.wrapper .content .left_content1 .item_new1 ul li a .hinhanh1 img {
+    height: 205px;
+    width: 188px;
+}
+.wrapper .content .left_content1 .item_new1 ul li a p {
+    color: #636363;
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+}
+.wrapper .content .left_content1 .item_new1 ul li a p span {
+    color: #c33439;
+    margin-top: 5px;
+    position: absolute;
+}
+.wrapper .content .right_content1 {
+    background-color: #d4e9ff;
+    float: right;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 25px;
+    width: 250px;
+}
+.wrapper .content .right_content1 .gioithieu1 {
+    margin: 10px;
+    width: 230px;
+}
+.wrapper .content .right_content1 .gioithieu1 img {
+    width: 230px;
+}
+.wrapper .content .right_content1 .gioithieu1 p {
+    margin: 10px;
+}
+.wrapper .content .left_content2 {
+    float: left;
+    width: 800px;
+}
+.wrapper .content .left_content2 .img_hoa2 {
+    border: 1px solid #ccc;
+    float: left;
+    height: 530px;
+    width: 337px;
+}
+.wrapper .content .left_content2 .img_hoa2 .img_hoa_item2 {
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.wrapper .content .left_content2 .img_hoa2 .img_hoa_item2 img {
+    height: 360px;
+    margin-left: 19px;
+    width: 300px;
+}
+.wrapper .content .left_content2 .img_hoa2 .name_hoa2 {
+}
+.wrapper .content .left_content2 .img_hoa2 .name_hoa2 p {
+    border-bottom: 1px solid #ccc;
+    color: #39ab49;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: normal;
+    height: 27px;
+    margin-left: 50px;
+    margin-top: 14px;
+    text-align: center;
+    width: 235px;
+}
+.wrapper .content .left_content2 .img_hoa2 .name_hoa2 span {
+    font-size: 20px;
+    margin-left: 95px;
+    margin-top: 10px;
+    position: absolute;
+}
+.wrapper .content .left_content2 .img_hoa2 .name_hoa2 span strong {
+    color: #e10000;
+}
+.wrapper .content .left_content2 .img_hoa2 .name_hoa2 .lienhe {
+    border: 1px solid #ccc;
+    height: 20px;
+    margin-left: 115px;
+    margin-top: 50px;
+    width: 100px;
+}
+.wrapper .content .left_content2 .cat_hoa2 {
+    float: right;
+    margin-right: 20px;
+    width: 420px;
+}
+.wrapper .content .left_content2 .cat_hoa2 h3 {
+    border-bottom: 1px solid #ccc;
+    color: #636363;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: normal;
+}
+.wrapper .content .left_content2 .cat_hoa2 p {
+    color: #636363;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.wrapper .content .left_content2 .item_new2 {
+    background: rgba(0, 0, 0, 0) url("../images/line.png") repeat-x scroll left top;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.wrapper .content .left_content2 .item_new2 h3 {
+    color: #e10000;
+    font-family: arial;
+    font-size: 16px;
+}
+.wrapper .content .left_content2 .item_new2 ul {
+    margin-top: 10px;
+}
+.wrapper .content .left_content2 .item_new2 ul li {
+    border: 1px solid #ccc;
+    float: left;
+    height: 260px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 185px;
+}
+.wrapper .content .left_content2 .item_new2 ul li a {
+}
+.wrapper .content .left_content2 .item_new2 ul li a .hinhanh2 {
+}
+.wrapper .content .left_content2 .item_new2 ul li a .hinhanh2 img {
+    border-bottom: 1px solid #ccc;
+    height: 205px;
+    width: 185px;
+}
+.wrapper .content .left_content2 .item_new2 ul li a p {
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.wrapper .content .left_content2 .item_new2 ul li a p span {
+    color: #c33439;
+    margin-top: 5px;
+    position: absolute;
+}
+.wrapper .content .right_content2 {
+    background-color: #d4e9ff;
+    float: right;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 25px;
+    width: 250px;
+}
+.wrapper .content .right_content2 .gioithieu2 {
+    margin: 10px;
+    width: 230px;
+}
+.wrapper .content .right_content2 .gioithieu2 img {
+    width: 230px;
+}
+.wrapper .content .right_content2 .gioithieu2 p {
+    margin: 10px;
+}
+.wrapper .content h2 {
+    color: red;
+    font-family: arial;
+    font-size: 20px;
+}
+.wrapper .content form {
+    margin-top: 20px;
+}
+.wrapper .content form p {
+    margin-bottom: 20px;
+}
+.wrapper .content form p label {
+    margin-top: 20px;
+}
+.wrapper .content form p input {
+    width: 200px;
+}
+.wrapper .content form p textarea {
+    height: 100px;
+    width: 300px;
+}
+.wrapper .content form p #gui {
+    width: 70px;
+}
